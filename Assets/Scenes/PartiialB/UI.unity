@@ -1591,12 +1591,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78526ef3a0ff23048a7868e6b3525104, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  languages:
-    languagesOptions:
-    - 
-    - 
-    values:
-    - 
+  classLanguages:
+    languages:
+    - Spanish
+    - English
+    languagesKeys:
+    - keys: User
+      languageValue:
+      - Usuario
+      - User
+    - keys: Password
+      languageValue:
+      - "Contrase\xF1a"
+      - Password
 --- !u!1 &1104569718
 GameObject:
   m_ObjectHideFlags: 0

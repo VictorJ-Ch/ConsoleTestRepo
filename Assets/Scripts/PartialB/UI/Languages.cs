@@ -2,22 +2,15 @@ using System;
 using UnityEngine;
 
 [Serializable]
-public class Languages
+public class ClassLanguages
 {
-    public string[] languagesOptions;
-    public string[] values;
-
-}
-
-public class LanguagesOptions
-{
-    public string lamguageA;
-    public string lmaguageB;
+    public string[] languages;
+    public LanguagesKeys[] languagesKeys;
 }
 
 [Serializable]
-public class Values
+public class LanguagesKeys
 {
-    public string key;
-    public string[] values;
+    public string keys;
+    public string[] languageValue;
 }
